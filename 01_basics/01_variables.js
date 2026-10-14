@@ -11,7 +11,7 @@ city= "kolkata"
 
 /*
 let is scope oriented
-while var is not
+var is not
 */
 
 console.table([accountemail,accpassword,city,accstate])
