@@ -34,6 +34,9 @@ function loginUserMessage(username = "sam"){
 }
 
 // console.log(loginUserMessage("hitesh")) //if nothing was passed as a parameter undefined is passed
+
+// undefined,"" are false 
+
 // console.log(loginUserMessage("hitesh"))
 
 
