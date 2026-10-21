@@ -1,3 +1,4 @@
+//browser kei andar global object is window object
 const user = {
     username: "hitesh",
     price: 999,
@@ -6,7 +7,6 @@ const user = {
         console.log(`${this.username} , welcome to website`);
         console.log(this);
     }
-
 }
 
 // user.welcomeMessage()
