@@ -42,7 +42,7 @@ function loginUserMessage(username = "sam"){
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
-}
+}//... is rest operator and is an array of rest elements
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 

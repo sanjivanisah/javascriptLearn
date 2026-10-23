@@ -27,7 +27,7 @@ const obj4 = {5: "a", 6: "b"}
 // const obj3 = Object.assign(obj1, obj2, obj4) // yeh karne sei obj1 modify hota hai obj2 aur obj4 jo hai obj1 mein add hojata hai
 // const obj3 = Object.assign({}, obj1, obj2, obj4)
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = {...obj1, ...obj2} //... spread operator
 // console.log(obj3);
 
 
@@ -69,15 +69,22 @@ const {courseInstructor: instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
 
+
+//apis aise mil sakta hai
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
+
+/* ya fir api aise bhi mil sakta hai
 [
     {},
     {},
     {}
 ]
+*/
+json
+// randomuserme Param,json formatter
 

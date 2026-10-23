@@ -17,19 +17,21 @@ const user = {
 
 // function chai(){
 //     let username = "hitesh"
+//     console.log(this); output same as if written outside the function 
 //     console.log(this.username);
-// }
+// } // undefined coz "this" sirf objects kei liye hota hai functions kei liye nahi
 
 // chai()
 
 // const chai = function () {
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username); //undefined
 // }
 
 const chai =  () => {
     let username = "hitesh"
-    console.log(this);
+    console.log(this);//{}
+    console.log(this.username);//undefined
 }
 
 
@@ -43,6 +45,7 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
+// const addTwo = (num1, num2) => {username: "hitesh"} //undefined parenthesis is necessary
 const addTwo = (num1, num2) => ({username: "hitesh"})
 
 
